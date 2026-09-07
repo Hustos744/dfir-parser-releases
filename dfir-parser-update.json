@@ -1,6 +1,6 @@
 {
-  "version": "0.5.1",
-  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.1/dfir-parser-0.5.1-win64.zip",
-  "sha256": "12f63d525b171988dc8769748a3c0a132bd49d084f48c9958299965eae573071",
-  "notes": "Temporarily pinned to 0.5.1 while updater rollback safety is fixed"
+  "version": "0.5.4",
+  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.4/dfir-parser-0.5.4-win64.zip",
+  "sha256": "74215fdfdd83f68650e5981dbdb4a1d9a9ab2423e0d1fef61d99de49851d401b",
+  "notes": "First transactional self-update validation"
 }
