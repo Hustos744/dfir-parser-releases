@@ -1,6 +1,6 @@
 {
-  "version": "0.5.6",
-  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.6/dfir-parser-0.5.6-win64.zip",
-  "sha256": "f517f8ec8c0d39a022d346b9c86ad529913bd0fd7356e309e108ff2c47b70fea",
+  "version": "0.5.7",
+  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.6/dfir-parser-0.5.7-win64.zip",
+  "sha256": "942523CFDB45BD168EF86CDE949C7BFA7B252F8B0F79976170C9578CAA8D6516",
   "notes": "Finalize production self-contained updater layout"
 }
