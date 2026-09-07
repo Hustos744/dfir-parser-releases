@@ -1,6 +1,6 @@
 {
-  "version": "0.5.11",
-  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.11/dfir-parser-0.5.11-win64.zip",
-  "sha256": "B67C4228D1C6FEEB298C7A370F34E435A042059CBC9CC35550F6550B1BEED2E8",
-  "notes": "Add startup application update prompt"
+  "version": "0.5.12",
+  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.12/dfir-parser-0.5.12-win64.zip",
+  "sha256": "53F943BF268E921157502D0A9DBB49DC822C05331A2AAFFCAC084E5C50BE3833",
+  "notes": "Add incremental workspace evidence ingestion and transactional rebuilds"
 }
