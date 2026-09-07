@@ -1,5 +1,5 @@
 {
-  "version": "0.5.7",
+  "version": "0.5.8",
   "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.8/dfir-parser-0.5.8-win64.zip",
   "sha256": "C495AED5627EBACBD2A66265DCBEA03FAC734C67288359A770CC3328C9638296",
   "notes": "Add startup application update prompt"
