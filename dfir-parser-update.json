@@ -1,6 +1,6 @@
 {
   "version": "0.5.7",
-  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.7/dfir-parser-0.5.7-win64.zip",
-  "sha256": "AEEB7B62AB4650BD3F1B3A2B8083B6E43FB7A374ED31E33EBD3D9C700AC48D68",
-  "notes": "Finalize production self-contained updater layout"
+  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.8/dfir-parser-0.5.8-win64.zip",
+  "sha256": "C495AED5627EBACBD2A66265DCBEA03FAC734C67288359A770CC3328C9638296",
+  "notes": "Add startup application update prompt"
 }
