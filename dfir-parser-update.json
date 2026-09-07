@@ -1,6 +1,6 @@
 {
-  "version": "0.5.12",
-  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.12/dfir-parser-0.5.12-win64.zip",
-  "sha256": "53F943BF268E921157502D0A9DBB49DC822C05331A2AAFFCAC084E5C50BE3833",
+  "version": "0.5.13",
+  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.13/dfir-parser-0.5.13-win64.zip",
+  "sha256": "046D37A81A90956FABDE27FD7C1E4D138F2A85582463BB59BDE4B2725A831AB9",
   "notes": "Add incremental workspace evidence ingestion and transactional rebuilds"
 }
