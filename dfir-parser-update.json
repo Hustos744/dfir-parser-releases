@@ -1,6 +1,6 @@
 {
-  "version": "0.5.16",
-  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.16/dfir-parser-0.5.16-win64.zip",
-  "sha256": "4c1ddc0ea7abf8a0e1907e4914a5ab55de404df3b54fa3ba2b2d2254fb48fb91",
-  "notes": "DFIR Parser 0.5.16"
+  "version": "0.5.17",
+  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.17/dfir-parser-0.5.17-win64.zip",
+  "sha256": "8ea7c319f5c561e08c593af3628cffb4ca2d885a87d4becf0b5792f94c87c373",
+  "notes": "DFIR Parser 0.5.17"
 }
