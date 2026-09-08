@@ -1,6 +1,10 @@
 {
   "schema_version": 1,
-  "contract_version": "2026-09-08.1",
+  "contract_version": "2026-09-08.2",
+  "capabilities": {
+    "mft_hidden_wsl": true,
+    "mft_managed_process_tree": true
+  },
   "standard_modules": [
     "AFU_EZParser",
     "AFU_Mft_timeliner",
