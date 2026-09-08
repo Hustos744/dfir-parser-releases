@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "contract_version": "2026-09-08.1",
+  "standard_modules": [
+    "AFU_EZParser",
+    "AFU_Mft_timeliner",
+    "AFU_HayabusaTakajo",
+    "AFU_SrumDump"
+  ],
+  "modules": {
+    "AFU_EZParser": {
+      "executor": "kape",
+      "output_group": "ez_tools",
+      "compound_children": [
+        "AmcacheParser",
+        "AppCompatCacheParser",
+        "EvtxECmd",
+        "JLECmd",
+        "LECmd",
+        "PECmd",
+        "RBCmd",
+        "RecentFileCacheParser",
+        "RECmd_Kroll",
+        "SBECmd",
+        "SQLECmd",
+        "SumECmd",
+        "WxTCmd"
+      ],
+      "runtime_requirements": [
+        {"path": "kape.exe", "kind": "file"}
+      ]
+    },
+    "AFU_Mft_timeliner": {
+      "executor": "mft-timeliner",
+      "output_group": "mft_timeliner",
+      "compound_children": [],
+      "runtime_requirements": [
+        {"path": "Modules/bin/MFTTimeliner/mft_timeliner.py", "kind": "file"},
+        {"path": "Modules/bin/MFTECmd.exe", "kind": "file"}
+      ]
+    },
+    "AFU_HayabusaTakajo": {
+      "executor": "hayabusa-takajo",
+      "output_group": "HayabusaTakajo",
+      "compound_children": [],
+      "runtime_requirements": [
+        {"path": "Modules/bin/Hayabusa/hayabusa.exe", "kind": "file"},
+        {"path": "Modules/bin/Hayabusa/rules", "kind": "directory"},
+        {"path": "Modules/bin/Takajo/takajo.exe", "kind": "file"},
+        {"path": "Modules/bin/Takajo/conf", "kind": "directory"},
+        {"path": "Modules/bin/Takajo/templates", "kind": "directory"},
+        {"path": "Modules/bin/Takajo/mitre-attack.json", "kind": "file"}
+      ]
+    },
+    "AFU_SrumDump": {
+      "executor": "kape",
+      "output_group": "SrumDump",
+      "compound_children": [],
+      "runtime_requirements": [
+        {"path": "kape.exe", "kind": "file"},
+        {"path": "Modules/bin/SrumDump/srum_dump.exe", "kind": "file"},
+        {"path": "Modules/bin/SrumDump/Run-SrumDump.ps1", "kind": "file"}
+      ]
+    }
+  },
+  "tracked_files": [
+    "kape.exe",
+    "Bootstrap-DFIRKapeTools.ps1",
+    "Modules/!Local/AFU_EZParser.mkape",
+    "Modules/!Local/AFU_Mft_timeliner.mkape",
+    "Modules/!Local/AFU_HayabusaTakajo.mkape",
+    "Modules/!Local/AFU_SrumDump.mkape",
+    "Modules/bin/MFTTimeliner/mft_timeliner.py",
+    "Modules/bin/SrumDump/srum_dump.exe",
+    "Modules/bin/SrumDump/Run-SrumDump.ps1",
+    "Modules/bin/EZToolsUpdate/UpdateEZTools.ps1",
+    "Modules/bin/HayabusaTakajoUpdate/Update-Hayabusa.ps1",
+    "Modules/bin/HayabusaTakajoUpdate/Update-Takajo.ps1"
+  ],
+  "bootstrap_provisions": {
+    "EZTools": [
+      "Modules/bin/MFTECmd.exe"
+    ],
+    "Hayabusa": [
+      "Modules/bin/Hayabusa/hayabusa.exe",
+      "Modules/bin/Hayabusa/rules"
+    ],
+    "Takajo": [
+      "Modules/bin/Takajo/takajo.exe",
+      "Modules/bin/Takajo/conf",
+      "Modules/bin/Takajo/templates",
+      "Modules/bin/Takajo/mitre-attack.json"
+    ]
+  },
+  "synthetic_artifacts": [
+    {"path": "C/$MFT", "type": "mft"},
+    {"path": "C/Windows/System32/winevt/Logs/System.evtx", "type": "evtx"},
+    {"path": "C/Windows/System32/sru/SRUDB.dat", "type": "srum"},
+    {"path": "C/Windows/Prefetch/APP.EXE-12345678.pf", "type": "prefetch"}
+  ]
+}
