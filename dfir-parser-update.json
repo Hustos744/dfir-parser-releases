@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "version": "0.5.37",
-  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.37/dfir-parser-0.5.37-win64.zip",
-  "sha256": "6a30878bf390b7fd94d898209568e898fb09a54d5dc14885013c78fc5eb9b625",
-  "notes": "DFIR Parser 0.5.37",
+  "version": "0.5.38",
+  "package_url": "https://github.com/Hustos744/dfir-parser-releases/releases/download/v0.5.38/dfir-parser-0.5.38-win64.zip",
+  "sha256": "c17cc6f4c305f857948b3c512d99ca7158757779c8639e6badb96141c6d10d25",
+  "notes": "DFIR Parser 0.5.38",
   "signing_key_id": "8ba2ffa6740876ac",
   "signature": {
     "algorithm": "ed25519",
-    "value": "KICuSJxoZV6jJ/IK+7dFCzd/BVMnT/lTNE3LtFx974hFTxdU4WirFHWzK/lLCkYeB5l+cnW5bDPvCxzcq1kkCQ=="
+    "value": "dK+kdqqThxrXbCpwFqLTJINHL1ZVBpR6eaN6KRV1ToeQCUAb7736yK9Jlv058oivqDvq/re2ff+QX/jW7eupAg=="
   }
 }
